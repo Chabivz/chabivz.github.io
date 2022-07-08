@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Chabivz/IAmCAA/issues"
   },
-  "homepage": "https://github.com/Chabivz/IAmCAA#readme"
+  "homepage": "https://github.com/Chabivz/IAmCAA#readme",
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-plugin-react": "^7.30.1"
+  }
 }
