@@ -8,4 +8,3 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/iamcaa', {
 }).catch(err => console.log(err));
 
 module.exports = mongoose.connection;
-
