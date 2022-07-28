@@ -6,9 +6,23 @@
 
 }
 
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
 body {
   background: var(--color-bg);
+  animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
+  
+
 
 a {
   color: unset;
@@ -100,3 +114,13 @@ a {
   }
 }
 
+
+
+.app__grid-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: var(--color-bg);
+}

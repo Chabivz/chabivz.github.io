@@ -121,3 +121,8 @@
       min-width: 100%;
   }
 }
+
+.section__margin {
+  margin: 0rem 5rem;
+  padding: 0;
+}
