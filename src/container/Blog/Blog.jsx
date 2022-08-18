@@ -17,7 +17,7 @@ function Blog() {
       link: "https://limitless-citadel-24664.herokuapp.com/articles/13",
     },
     {
-      title: "",
+      title: "Budget Tracker ",
       about: "",
       github: "https://github.com/Chabivz/019-PWA-BudgetTracker",
       link: "",
