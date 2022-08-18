@@ -1,5 +1,7 @@
 import React from 'react'
 import './blog.css';
+import Project from '../../components/project/Project'
+
 function Blog() {
   const projectData = [
     {
@@ -9,15 +11,15 @@ function Blog() {
       link: "https://github.com/Chabivz/012-MySQLEmployeeTracker",
     },
     {
-      title: "",
-      about: "",
-      github: "",
-      link: "",
+      title: "Tech Blog",
+      about: "A web app where I can write and share information about coding and desing. Published on Heroku app using handlebars, mySQL and Express",
+      github: "https://github.com/Chabivz/014-TechBlog",
+      link: "https://limitless-citadel-24664.herokuapp.com/articles/13",
     },
     {
       title: "",
       about: "",
-      github: "",
+      github: "https://github.com/Chabivz/019-PWA-BudgetTracker",
       link: "",
     },
   ];
@@ -27,7 +29,9 @@ function Blog() {
         <p>Featured Project</p>
       </div>
       <div className='project__cards'>
-        <div></div>
+        {projectData.map((item, index) => (
+          <Project />
+        ))};
       </div>
     </div>
   )
