@@ -1,7 +1,7 @@
 import React from 'react'
 import './blog.css';
-import Project from '../../components/project/Project'
-
+import { Article } from '../../components';
+import { blog01, blog02, blog03, blog04, blog05 } from './imports';
 function Blog() {
   const projectData = [
     {
@@ -24,14 +24,20 @@ function Blog() {
     },
   ];
   return (
-    <div className='project__container'>
-      <div>
-        <p>Featured Project</p>
+    <div className='gpt3__blog section__padding' id="project">
+      <div className='gpt3__blog-heading'>
+        <h1 className='gradient__text'>A lot is happening</h1>
       </div>
-      <div className='project__cards'>
-        {projectData.map((item, index) => (
-          <Project />
-        ))};
+      <div className="gpt3__blog-container">
+        <div className='gpt3__blog-container_groupA'>
+          <Article imgUrl={blog01} date="August 2022" title="Title01"/>
+        </div>
+        <div className='gpt3__blog-container_groupB'>
+          <Article imgUrl={blog02} date="August 2022" title="Title02"/>
+          <Article imgUrl={blog03} date="August 2022" title="Title03"/>
+          <Article imgUrl={blog04} date="August 2022" title="Title04"/>
+          <Article imgUrl={blog05} date="August 2022" title="Title05"/>
+        </div>
       </div>
     </div>
   )
