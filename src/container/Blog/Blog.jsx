@@ -2,8 +2,18 @@ import React from 'react'
 import './blog.css';
 import { Article } from '../../components';
 import { blog01, blog02, blog03, blog04, blog05 } from './imports';
+
+
+
 function Blog() {
   const projectData = [
+    {
+      title: "Travel Advisor",
+      about: "An app that helps look for restaurants, hotels and attractions using Google Maps.",
+      github: "https://github.com/Chabivz/travel-advisor",
+      date: "09/12/2022",
+      img: blog04,
+    },
     {
       title: "MySQL Employee Tracker",
       about: "A terminal based Content Management System using node, inquirer, and MySQL. The Employee Tracker is a way to display information stored in the database for non-developers. The project will be using the CRUD",
@@ -13,30 +23,23 @@ function Blog() {
     },
     {
       title: "Tech Blog",
-      about: "A web app where I can write and share information about coding and desing. Published on Heroku app using handlebars, mySQL and Express",
+      about: "A web app where I can write and share information about coding and design. Published on Heroku app using handlebars, mySQL and Express",
       github: "https://github.com/Chabivz/014-TechBlog",
-      date: "",
+      date: "01/01/2022",
       img: blog02,
     },
     {
-      title: "Budget Tracker ",
-      about: "",
+      title: "Budget Tracker",
+      about: "A web app where I can write and share information about coding and desing. Published on Heroku app using handlebars, mySQL and Express",
       github: "https://github.com/Chabivz/019-PWA-BudgetTracker",
-      date: "",
+      date: "01/01/2022",
       img: blog03,
     },
     {
-      title: "Budget Tracker ",
-      about: "",
-      github: "https://github.com/Chabivz/019-PWA-BudgetTracker",
-      date: "",
-      img: blog04,
-    },
-    {
-      title: "Budget Tracker ",
-      about: "",
-      github: "https://github.com/Chabivz/019-PWA-BudgetTracker",
-      date: "",
+      title: "Team Profile Generator",
+      about: "A Node.js command-line application that takes in information about employees on a software engineering team, that generates an HTML webpage that diesplays summaries for each person.",
+      github: "https://github.com/Chabivz/TeamProfileGenerator",
+      date: "01/01/2022",
       img: blog05,
     },
   ];
@@ -47,13 +50,13 @@ function Blog() {
         <h1 className='gradient__text'>A lot is happening</h1>
       </div>
       <div className="gpt3__blog-container">
-        <div className='gpt3__blog-container_groupA'>
-          <Article imgUrl={blog01} date={projectData[0].date} title={projectData[0].title} about={projectData[0].about} link={projectData[0].github}/>
-        </div>
+        {/* <div className='gpt3__blog-container_groupA'>
+          <Article imgUrl={blog01} date={projectData[0].date} title={projectData[0].title} about={projectData[0].about} github={projectData[0].github}/>
+        </div> */}
         <div className='gpt3__blog-container_groupB'>
         {projectData.map(projectData => (
           
-          <Article imgUrl={projectData.img} date={projectData.date} about={projectData.about} title={projectData.title} link={projectData.github}/>
+          <Article imgUrl={projectData.img} date={projectData.date} about={projectData.about} title={projectData.title} github={projectData.github}/>
           
         ))}
         
@@ -61,7 +64,10 @@ function Blog() {
         </div>
       </div>
     </div>
+    
   )
+
+  
 }
 
 export default Blog

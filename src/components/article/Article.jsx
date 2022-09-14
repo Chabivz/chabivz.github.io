@@ -12,7 +12,7 @@ const Article = ({imgUrl, date, title, github, about}) =>  {
           <p>{date}</p>
           <h3>{title}</h3>
           <p>{about}</p>
-          <p><a href={github}>Read More</a></p>
+          <p><a href={github} target="_blank" rel="noreferrer">Read More</a></p>
         </div>
       </div>
     </div>
