@@ -1,5 +1,5 @@
 import React from 'react';
-import ai from '../../assets/ai.png';
+// import ai from '../../assets/ai.png';
 import './header.css';
 
 const Header = () => (
@@ -10,9 +10,9 @@ const Header = () => (
       <p>I'm an aspiring full-stack developer. I enjoy creating things that live in the internet. Currently, focused on building accessible website, mastering Big O and reading Cracking the Coding Interview. </p>
     </div>
     
-    <div className='gpt3__header-image'>
+    {/* <div className='gpt3__header-image'>
       <img src={ai} alt="ai" />
-    </div>
+    </div> */}
   </div>
 )
 

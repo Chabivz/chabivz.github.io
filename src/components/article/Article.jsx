@@ -1,7 +1,7 @@
 import React from 'react';
 import './article.css'
 
-const Article = ({imgUrl, date, title}) =>  {
+const Article = ({imgUrl, date, title, github, about}) =>  {
   return (
     <div className='gpt3__blog-container_article'>
       <div className='gpt__blog-container_article-image'>
@@ -11,7 +11,8 @@ const Article = ({imgUrl, date, title}) =>  {
         <div>
           <p>{date}</p>
           <h3>{title}</h3>
-          <p>Read Full Project</p>
+          <p>{about}</p>
+          <p><a href={github}>Read More</a></p>
         </div>
       </div>
     </div>

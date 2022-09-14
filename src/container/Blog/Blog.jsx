@@ -8,21 +8,39 @@ function Blog() {
       title: "MySQL Employee Tracker",
       about: "A terminal based Content Management System using node, inquirer, and MySQL. The Employee Tracker is a way to display information stored in the database for non-developers. The project will be using the CRUD",
       github: "https://github.com/Chabivz/012-MySQLEmployeeTracker",
-      link: "https://github.com/Chabivz/012-MySQLEmployeeTracker",
+      date: "01/01/2022",
+      img: blog01,
     },
     {
       title: "Tech Blog",
       about: "A web app where I can write and share information about coding and desing. Published on Heroku app using handlebars, mySQL and Express",
       github: "https://github.com/Chabivz/014-TechBlog",
-      link: "https://limitless-citadel-24664.herokuapp.com/articles/13",
+      date: "",
+      img: blog02,
     },
     {
       title: "Budget Tracker ",
       about: "",
       github: "https://github.com/Chabivz/019-PWA-BudgetTracker",
-      link: "",
+      date: "",
+      img: blog03,
+    },
+    {
+      title: "Budget Tracker ",
+      about: "",
+      github: "https://github.com/Chabivz/019-PWA-BudgetTracker",
+      date: "",
+      img: blog04,
+    },
+    {
+      title: "Budget Tracker ",
+      about: "",
+      github: "https://github.com/Chabivz/019-PWA-BudgetTracker",
+      date: "",
+      img: blog05,
     },
   ];
+  
   return (
     <div className='gpt3__blog section__padding' id="project">
       <div className='gpt3__blog-heading'>
@@ -30,13 +48,16 @@ function Blog() {
       </div>
       <div className="gpt3__blog-container">
         <div className='gpt3__blog-container_groupA'>
-          <Article imgUrl={blog01} date="August 2022" title="Title01"/>
+          <Article imgUrl={blog01} date={projectData[0].date} title={projectData[0].title} about={projectData[0].about} link={projectData[0].github}/>
         </div>
         <div className='gpt3__blog-container_groupB'>
-          <Article imgUrl={blog02} date="August 2022" title="Title02"/>
-          <Article imgUrl={blog03} date="August 2022" title="Title03"/>
-          <Article imgUrl={blog04} date="August 2022" title="Title04"/>
-          <Article imgUrl={blog05} date="August 2022" title="Title05"/>
+        {projectData.map(projectData => (
+          
+          <Article imgUrl={projectData.img} date={projectData.date} about={projectData.about} title={projectData.title} link={projectData.github}/>
+          
+        ))}
+        
+        
         </div>
       </div>
     </div>
