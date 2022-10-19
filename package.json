@@ -2,7 +2,7 @@
   "name": "iamcaa",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://chabivz.github.io/IAmCAA/",
+  "homepage": "https://chabivz.github.io/IAmCAA/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -12,14 +12,15 @@
     "react-icons": "^4.4.0",
     "react-scripts": "5.0.1",
     "react-spinners": "^0.13.3",
+    "serve": "^14.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
