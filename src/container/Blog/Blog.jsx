@@ -42,6 +42,14 @@ function Blog() {
       date: "01/01/2022",
       img: blog05,
     },
+    
+    {
+      title: "E-Commerce Backend",
+      about: "A Node.js command-line application that takes in information about employees on a software engineering team, that generates an HTML webpage that diesplays summaries for each person.",
+      github: "https://github.com/Chabivz/E-CommerceBackEnd",
+      date: "01/01/2022",
+      img: blog05,
+    },
   ];
   
   return (
