@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/IAmCAA/static/css/main.b942c698.css",
-    "main.js": "/IAmCAA/static/js/main.12f76797.js",
-    "static/media/possibility.png": "/IAmCAA/static/media/possibility.525f13b61a2157d44de0.png",
-    "static/media/blog01.png": "/IAmCAA/static/media/blog01.cefc0932eae0d33a0342.png",
-    "static/media/blog03.png": "/IAmCAA/static/media/blog03.d922323861096f25274f.png",
-    "static/media/blog04.png": "/IAmCAA/static/media/blog04.742c1357e7b6c11078e6.png",
-    "static/media/blog05.png": "/IAmCAA/static/media/blog05.bfaa1c1e3851158e0e1f.png",
-    "static/media/blog02.png": "/IAmCAA/static/media/blog02.ab0eb367561796e91532.png",
-    "static/media/logo.png": "/IAmCAA/static/media/logo.c45836bf0a937cb93b9f.png",
-    "index.html": "/IAmCAA/index.html",
-    "main.b942c698.css.map": "/IAmCAA/static/css/main.b942c698.css.map",
-    "main.12f76797.js.map": "/IAmCAA/static/js/main.12f76797.js.map"
+    "main.css": "/iamcaa/static/css/main.96e5e0c9.chunk.css",
+    "main.js": "/iamcaa/static/js/main.1690742b.chunk.js",
+    "main.js.map": "/iamcaa/static/js/main.1690742b.chunk.js.map",
+    "runtime-main.js": "/iamcaa/static/js/runtime-main.b90dda31.js",
+    "runtime-main.js.map": "/iamcaa/static/js/runtime-main.b90dda31.js.map",
+    "static/js/2.347db63b.chunk.js": "/iamcaa/static/js/2.347db63b.chunk.js",
+    "static/js/2.347db63b.chunk.js.map": "/iamcaa/static/js/2.347db63b.chunk.js.map",
+    "index.html": "/iamcaa/index.html",
+    "static/css/main.96e5e0c9.chunk.css.map": "/iamcaa/static/css/main.96e5e0c9.chunk.css.map",
+    "static/js/2.347db63b.chunk.js.LICENSE.txt": "/iamcaa/static/js/2.347db63b.chunk.js.LICENSE.txt",
+    "static/media/blog01.cefc0932.png": "/iamcaa/static/media/blog01.cefc0932.png",
+    "static/media/blog02.ab0eb367.png": "/iamcaa/static/media/blog02.ab0eb367.png",
+    "static/media/blog03.d9223238.png": "/iamcaa/static/media/blog03.d9223238.png",
+    "static/media/blog04.742c1357.png": "/iamcaa/static/media/blog04.742c1357.png",
+    "static/media/blog05.bfaa1c1e.png": "/iamcaa/static/media/blog05.bfaa1c1e.png",
+    "static/media/logo.c45836bf.png": "/iamcaa/static/media/logo.c45836bf.png",
+    "static/media/possibility.525f13b6.png": "/iamcaa/static/media/possibility.525f13b6.png"
   },
   "entrypoints": [
-    "static/css/main.b942c698.css",
-    "static/js/main.12f76797.js"
+    "static/js/runtime-main.b90dda31.js",
+    "static/js/2.347db63b.chunk.js",
+    "static/css/main.96e5e0c9.chunk.css",
+    "static/js/main.1690742b.chunk.js"
   ]
 }
