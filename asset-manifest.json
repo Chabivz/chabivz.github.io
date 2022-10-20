@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/iamcaa/static/css/main.96e5e0c9.chunk.css",
-    "main.js": "/iamcaa/static/js/main.1690742b.chunk.js",
-    "main.js.map": "/iamcaa/static/js/main.1690742b.chunk.js.map",
-    "runtime-main.js": "/iamcaa/static/js/runtime-main.b90dda31.js",
-    "runtime-main.js.map": "/iamcaa/static/js/runtime-main.b90dda31.js.map",
-    "static/js/2.347db63b.chunk.js": "/iamcaa/static/js/2.347db63b.chunk.js",
-    "static/js/2.347db63b.chunk.js.map": "/iamcaa/static/js/2.347db63b.chunk.js.map",
-    "index.html": "/iamcaa/index.html",
-    "static/css/main.96e5e0c9.chunk.css.map": "/iamcaa/static/css/main.96e5e0c9.chunk.css.map",
-    "static/js/2.347db63b.chunk.js.LICENSE.txt": "/iamcaa/static/js/2.347db63b.chunk.js.LICENSE.txt",
-    "static/media/blog01.cefc0932.png": "/iamcaa/static/media/blog01.cefc0932.png",
-    "static/media/blog02.ab0eb367.png": "/iamcaa/static/media/blog02.ab0eb367.png",
-    "static/media/blog03.d9223238.png": "/iamcaa/static/media/blog03.d9223238.png",
-    "static/media/blog04.742c1357.png": "/iamcaa/static/media/blog04.742c1357.png",
-    "static/media/blog05.bfaa1c1e.png": "/iamcaa/static/media/blog05.bfaa1c1e.png",
-    "static/media/logo.c45836bf.png": "/iamcaa/static/media/logo.c45836bf.png",
-    "static/media/possibility.525f13b6.png": "/iamcaa/static/media/possibility.525f13b6.png"
+    "main.css": "/chabivz.github.io/static/css/main.96e5e0c9.chunk.css",
+    "main.js": "/chabivz.github.io/static/js/main.a48a6caa.chunk.js",
+    "main.js.map": "/chabivz.github.io/static/js/main.a48a6caa.chunk.js.map",
+    "runtime-main.js": "/chabivz.github.io/static/js/runtime-main.9b7c4965.js",
+    "runtime-main.js.map": "/chabivz.github.io/static/js/runtime-main.9b7c4965.js.map",
+    "static/js/2.bde6fbf4.chunk.js": "/chabivz.github.io/static/js/2.bde6fbf4.chunk.js",
+    "static/js/2.bde6fbf4.chunk.js.map": "/chabivz.github.io/static/js/2.bde6fbf4.chunk.js.map",
+    "index.html": "/chabivz.github.io/index.html",
+    "static/css/main.96e5e0c9.chunk.css.map": "/chabivz.github.io/static/css/main.96e5e0c9.chunk.css.map",
+    "static/js/2.bde6fbf4.chunk.js.LICENSE.txt": "/chabivz.github.io/static/js/2.bde6fbf4.chunk.js.LICENSE.txt",
+    "static/media/blog01.cefc0932.png": "/chabivz.github.io/static/media/blog01.cefc0932.png",
+    "static/media/blog02.ab0eb367.png": "/chabivz.github.io/static/media/blog02.ab0eb367.png",
+    "static/media/blog03.d9223238.png": "/chabivz.github.io/static/media/blog03.d9223238.png",
+    "static/media/blog04.742c1357.png": "/chabivz.github.io/static/media/blog04.742c1357.png",
+    "static/media/blog05.bfaa1c1e.png": "/chabivz.github.io/static/media/blog05.bfaa1c1e.png",
+    "static/media/logo.c45836bf.png": "/chabivz.github.io/static/media/logo.c45836bf.png",
+    "static/media/possibility.525f13b6.png": "/chabivz.github.io/static/media/possibility.525f13b6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b90dda31.js",
-    "static/js/2.347db63b.chunk.js",
+    "static/js/runtime-main.9b7c4965.js",
+    "static/js/2.bde6fbf4.chunk.js",
     "static/css/main.96e5e0c9.chunk.css",
-    "static/js/main.1690742b.chunk.js"
+    "static/js/main.a48a6caa.chunk.js"
   ]
 }
