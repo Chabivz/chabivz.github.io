@@ -58,17 +58,12 @@ function Blog() {
         <h1 className='gradient__text'>A lot is happening</h1>
       </div>
       <div className="gpt3__blog-container">
-        {/* <div className='gpt3__blog-container_groupA'>
-          <Article imgUrl={blog01} date={projectData[0].date} title={projectData[0].title} about={projectData[0].about} github={projectData[0].github}/>
-        </div> */}
         <div className='gpt3__blog-container_groupB'>
         {projectData.map(projectData => (
           
           <Article imgUrl={projectData.img} date={projectData.date} about={projectData.about} title={projectData.title} github={projectData.github}/>
           
         ))}
-        
-        
         </div>
       </div>
     </div>

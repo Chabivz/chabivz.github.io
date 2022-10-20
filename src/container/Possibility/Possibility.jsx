@@ -12,7 +12,6 @@ function Possibility() {
         <h4>Request Early Access to Get Started</h4>
         <h1 className="gradient__text">The Possibility</h1>
         <p>Sphynx of black quartz, judge my vow</p>
-        <h4>Yet another pangram</h4>
       </div>
     </div>
   )
