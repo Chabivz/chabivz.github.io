@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import GridLoader from 'react-spinners/GridLoader';
-import { Footer, Blog, Possibility, Header, WhatGPT3, Features } from './container';
-import { CTA, Navbar } from './components';
+import { Footer, Work, Header, Chabivz, Experience } from './container';
+import { Navbar } from './components';
 import './App.css';
 
 function App() {
@@ -35,11 +35,9 @@ function App() {
           <Navbar />
           <Header />
         </div>
-        <WhatGPT3 />
-        <Features />
-        <Possibility />
-        <CTA />
-        <Blog />
+        <Chabivz />
+        <Experience />
+        <Work />
         <Footer />
         </div>
       }
