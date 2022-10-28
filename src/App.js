@@ -31,7 +31,7 @@ function App() {
         </div>
         :
         <div>
-        <div className='gradient__bg'>
+        <div className='gradient__bg tracking-in-contract-bck'>
           <Navbar />
           <Header />
         </div>
