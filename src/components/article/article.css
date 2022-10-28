@@ -64,3 +64,8 @@
   -webkit-text-fill-color: transparent;
 
 }
+
+.photo {
+  height: 250px;
+  width: 250px;
+}
